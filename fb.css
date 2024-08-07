@@ -1,0 +1,100 @@
+.header{
+    width:100%;
+    height:100px;
+    background-color:#29468e;
+}
+body{
+    margin:0;
+}
+.logo{
+    width:50%;
+    height:100px;
+    padding-top:45px;
+    float:left;
+
+}
+.log_in{
+    width:50%;
+    height:100px;
+    float:left;
+    padding-top:45px;
+}
+.logo-text{
+    color: aliceblue;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 170px;
+    margin-top:45px;
+}
+.login-label{
+    color:ghostwhite;
+    font-size:11px;
+}
+table{
+    padding:10px;
+    padding-left: 10px;
+}
+.login-controls{
+    margin-left:115px;
+}
+.forgot{
+    color:#9cb4d8;
+}
+.submit-button{
+    color:white;
+    background: #3b5998;
+    height:20px;
+    border-color: #29487d;
+}
+.submit-button:hover{
+    background-color: aqua;
+}
+
+.left-section{
+    width:50%;
+    float:left;
+
+
+}
+.right-section{
+    width:50%;
+    float:left;
+    
+}
+.mainbody{
+    width:100%;
+    height:650px;
+    background-color:#c3d4d8;
+}
+.para{
+    
+    font-weight: bold;
+    padding-left:150px;
+    font-size:20px;
+}
+.image{
+    width: 350px;
+    padding-left:150px;
+   
+}
+.para1{
+    padding-left:30px;
+    font-size: 21px;;
+}
+.para2{
+    font-size: 17px;
+    padding-left:84px;
+}
+h5{
+    margin:-52px;
+}
+.first-name{
+    height: 25px;
+    border-radius: 5px;
+    width: 225px;
+    margin-top:70px;
+    font-size:15px ;
+   
+}

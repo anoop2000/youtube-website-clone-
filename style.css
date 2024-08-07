@@ -1,0 +1,50 @@
+button{
+    color: blueviolet;
+    background-color: aqua;
+}
+#p1{
+    color: blueviolet;
+}
+#p2{
+    color: brown;
+}
+.content{
+    color: blue;
+    background-color: rgb(255, 127, 195);
+}
+.outer_box{
+    width: 300px;
+    height: 200px;
+    margin:50px;
+    background-color: rgb(142, 142, 21);
+   
+    
+    border: 5px solid;
+    border-color: rgb(108, 207, 16);
+    padding-left: 30px;
+
+
+}
+#red{
+    color: rgb(245, 23, 175);
+    margin-left: 90px;
+}
+
+
+.inner_box{
+    border:3px solid;
+    border-color: rgb(211, 127, 30);
+    margin-top:10px;
+    width:270px;
+    height:125px;
+    background-color: rgb(200, 217, 228);
+    
+}
+#data{
+    padding-top:20px;
+    padding-left: 10px;
+    color: rgb(79, 17, 17);
+}
+
+
+

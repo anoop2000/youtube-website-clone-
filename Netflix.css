@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    background-color: black;
+    color: #fff;
+
+}
+/* utilities*/
+.container{
+    max-width: 1280px;
+    margin: auto;
+    padding: 0px 3% ;
+}
+li{
+    list-style: none;
+}
+h1{
+    font-size:50px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+h2{
+    font-size:30px;
+    font-weight: 400;
+    margin-bottom: 46px;
+}
+h3{
+    font-size:24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+    
+
+.header{
+    height:75vh;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url("https://assets.nflxext.com/ffe/siteui/vlv3/83e8c151-107d-4e8f-b95a-d2ba99d49bb9/7a0bd648-8238-4134-b486-e7ff5cbaa56e/US-en-20230213-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+background-repeat: no-repeat;
+object-fit: cover;
+background-position: center;
+
+}
+.navbar{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+.logo{
+    margin-right: auto;
+}
+
+.logo svg{
+    fill:#e50914;
+    height:40px;
+}
+
+
+
+
+.select-box{
+    position: relative;
+}
+.select-box svg{
+    height:20px;
+    position: absolute;
+    top:5px;
+    left:5px;
+    
+}
+.select-box select{
+    display: inline;
+    font-size: 14px;
+    background-color: transparent;
+    color:#fff;
+    border-radius: 3px;
+    border:1px solid #fff;
+    padding:6px 0px 6px 20px;
+}
+.select-box select option{
+    background-color:#fff;
+    color: black;
+} 
+.Sign-in-button{
+    
+    background-color: #e50914;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight :700;
+    cursor :pointer;
+    margin-left:5px;
+    padding: 8px 16px;
+}
+.header-content{
+    height:65vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+
+.form{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-group{
+    width:55%;
+    height:60px;
+    position: relative;
+}
+
+
+.form-input{
+    width:100%;
+    height:100%;
+    font-size:15px;
+    color: #222;
+    background-color: #fff;
+    border:0;
+    border-radius: 5px;
+    padding:20px 15px;
+}
+.form-label{
+    position:absolute;
+    top:0;
+    left:0;
+    font-size: 15px;
+    padding:20px 15px;
+    color:#222;
+
+
+}
+.form-input:focus+ .form-label{
+    top:-12px;
+    left:0;
+    color: #222;
+    font-size: 12px;
+    z-index: 10;
+}
+
+
+.get-btn{
+    display:flex;
+    align-items: center;
+    font-size:25px;
+    font-weight: 700;
+    padding: 15px 25px;
+    background-color:#e50914;
+    border-radius: 3px;
+    color:#fff;
+    border:0;
+    cursor: pointer;
+
+}
+
+
+
+
+section{
+    padding:80px 0px ;
+    border-top: 8px solid #222;
+
+}
+
+.section-wrap{
+    display: flex;
+    align-items: center;
+    gap:12px;
+}
+
+
+.section-content{
+    flex-basis:50%;
+}
+
+.section-content p{
+    font-size:24px;
+}
+
+.section-media{
+    flex-basis:50%;
+    position:relative;
+}
+
+.section-media image{
+    width:100%;
+}
+.video-div{
+    width:100%;
+    height:100;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-1{
+    max-width:73%;
+    max-height:54%;
+    top:48%;
+    left:50%;
+}
+.reverse{
+    flex-direction:row-reverse;
+}
+.video-2 {
+    max-width: 63%;
+    max-height: 47%;
+    top: 34%;
+    left: 50%;
+}
+.container-section-faq{
+    text-align: center;
+}
+.accordion{
+    width:100%;
+    font-size:24px;
+    margin:10px 0;
+    text-align:left;
+
+}
+.question{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:relative;
+    background-color: #2d2d2d;
+    margin-bottom:10px;
+    padding: 24px;
+    
+}
+.question:hover{
+    background-color: #444;
+}
+.plus-icon{
+    width: 3%;
+    padding-right: 10px;
+    font-weight:400;
+    cursor: pointer;
+    
+    
+    
+
+} 
+.footer{
+    padding:80px 0px;
+}
+.footer a,h5{
+    font-size:16px;
+    color:rgb(245, 241, 236);
+}
+.footer .grid-contents{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:20px 0px;
+    
+}
+.footer .grid-contents li a{
+    display :block;
+    font-size: 14px;
+    color:#fff;
+    margin: 15px;
+    
+}

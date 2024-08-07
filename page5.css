@@ -1,0 +1,35 @@
+.outer_box{
+    width:800px;
+    height:500px;
+    background-color: aquamarine;
+}
+.box_1{
+    width:375px;
+    height:100px;
+    background-color: blue;
+    float: left;
+    margin-top:50px;
+}
+.box_2{
+    width:375px;
+    height:100px;
+    background-color:green;
+    float:left;
+    margin-top:50px;
+    margin-left:50px;
+}
+.box_3{
+    width:375px;
+    height:100px;
+    background-color:yellow;
+    float:left;
+    margin-top: 250px;
+}
+.box_4{
+    width:375px;
+    height:100px;
+    background-color: rgb(255, 0, 255);
+    float:left;
+    margin-top:250px;
+    margin-left:50px;
+}
